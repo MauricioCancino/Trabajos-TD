@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIMRODEL Restaurant y Pub</title>
+    <link rel="shortcut icon" href="Imagenes/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f0d8523e8f.js" crossorigin="anonymous"></script>
+    <style>
+     h3{ text-decoration: underline;
+          }
+    </style>
+    <link rel="stylesheet" href="./restaurante.css">
+   
+</head>
+<body>
+    
+    <nav class="navbar text-center">
+
+        <img src="MATERIAL COMPLEMENTARIO/n.png" alt="Fotito N" width="30px" height="30px" id=" logoN">
+        <i class="fa-solid fa-bars" id="barra"></i>
+
+        <ul id="listaNav">
+        <!-- <li><img src="MATERIAL COMPLEMENTARIO/n.png" alt="Letrita N" width="25px" height="25px"> </li> -->
+        <li> <a href="">Nuestros Productos</a> </li>
+        <li> <a href="">Sobre nosotros</a></li>
+        <li> 
+            <a href="#comuniquemonos">Comuniquemonos</a>
+        </li>
+        <li>
+            <a href="#reserva">Reserva</a>
+        </li>
+    </ul>
+
+
+    </nav>
+
+    <br>
+
+
+<h1 style="text-align: center;"> <b> <u> Nimrodel Pub Restaurant: </u> </b> </h1>
+
+    <h2 style="text-decoration: overline; text-align: center; margin-top: 75px;" > <b> Destacados de la semana:</b></h2>
+<br>
+
+
+    <div class="card-group rounded-1 px-5">
+      <div class="card">
+        <img src="MATERIAL COMPLEMENTARIO/bebidas.jpg" class="card-img-top" alt="..." width="350px;" height="350px;">
+        <div class="card-body">
+          <h5 class="card-title">Bebestibles:</h5>
+          <p class="card-text">Infusión fría a base de té, con sabores frutales</p>
+          <p class="card-text"><medium class="text-body-secondary "></medium></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="MATERIAL COMPLEMENTARIO/tablas.jpg" class="card-img-top" alt="..." width="350px;" height="350px;">
+        <div class="card-body">
+          <h5 class="card-title">Tablas</h5>
+          <p class="card-text">Tablas con variedad de bocadillos para compartir</p>
+          <p class="card-text"><medium class="text-body-secondary"></medium></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="MATERIAL COMPLEMENTARIO/shop.jpeg" class="card-img-top" alt="..." width="350px;" height="350px;">
+        <div class="card-body">
+          <h5 class="card-title">Shops:</h5>
+          <p class="card-text">Variedad de cervezas artesanales</p>
+          <p class="card-text"><medium class="text-body-secondary"></medium></p>
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+
+<!--Formulario Comuniquemonos-->
+
+</div>
+<div class="container text-center bg-dark text-light rounded-1 mx-auto" id="comuniquemonos" style="margin: auto; width:33%;">
+<form action="" class="row md-3" id="formularioComunicar">
+    <div class="col-md-12">
+      <label for="validationDefault01" class="form-label">Nombre</label>
+      <input type="text" class="form-control" id="validationDefault01" value="Ingrese su nombre" required>
+    </div>
+    <div class="col-md-12">
+      <label for="validationDefault02" class="form-label">Teléfono</label>
+      <input type="text" class="form-control" id="validationDefault02" value="+569" required>
+    </div>
+    <div class="col-md-12">
+      <label for="validationDefaultUsername" class="form-label">Correo electrónico</label>
+      <div class="input-group">
+        <span class="input-group-text" id="inputGroupPrepend2">@</span>
+        <input type="text" class="form-control" id="validationDefaultUsername" value="lalolanda@example.com" aria-describedby="inputGroupPrepend2" required>
+      </div>
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Motivo</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+   
+    <div class="col-12">
+      <button class="btn btn-primary" type="submit">Enviar</button>
+    </div>
+  </form>
+</div>
+
+<br>
+<br>
+<br>
+<!--Formulario Reserva-->
+
+<div class="container text-center bg-dark text-light rounded-1 mx-auto" id="reserva" style="margin: auto; width:33%;">
+<form action="./redirección.html" class="row md-3" id="formularioReserva">
+    <div class="col-md-12">
+      <label for="validationDefault01" class="form-label">Nombre</label>
+      <input type="text" class="form-control" id="validationDefault01" value="Ingrese su nombre" required>
+    </div>
+    <div class="col-md-12">
+        <label for="validationDefaultUsername" class="form-label">Correo electrónico</label>
+        <div class="input-group">
+          <span class="input-group-text" id="inputGroupPrepend2">@</span>
+          <input type="text" class="form-control" id="validationDefaultUsername" value="lalolanda@example.com" aria-describedby="inputGroupPrepend2" required>
+        </div>
+        <div class="col-md-12">
+            <label for="validationDefault02" class="form-label">Teléfono</label>
+            <input type="text" class="form-control" id="validationDefault02" value="+569" required>
+          </div>
+    </div>
+    <div class="col-md-12">
+      <label for="validationDefault03" class="form-label">Fecha</label>
+      <input type="date" class="form-control" id="validationDefault03" value="" required>
+    </div>
+
+    <div class="col-md-12">
+        <label for="validationDefault04" class="form-label">Hora</label>
+        <input type="time" class="form-control" id="validationDefault04" value="" required>
+      </div>
+
+      <div class="col-md-12">
+        <label for="asistentes">Cantidad de asistentes</label>
+        <input type="number" class="form-control" id="asistentes" required min="0" max="10">
+      </div>
+    <div class="col-12">
+      <button class="btn btn-primary" type="submit">Reservar</button>
+    </div>
+  </form>
+
+</div>
+
+<br>
+
+<!--Fotos desplazables-->
+
+<div id="carouselExample" class="carousel slide col-xl-12 px-5 rounded-5">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="MATERIAL COMPLEMENTARIO/mojito.jpg" class="d-block w-100" alt="Foto mojito">
+      </div>
+      <div class="carousel-item">
+        <img src="MATERIAL COMPLEMENTARIO/chorillana.jpg" class="d-block w-100" alt="Foto chorrillana">
+      </div>
+      <div class="carousel-item">
+        <img src="MATERIAL COMPLEMENTARIO/vino.jpg" class="d-block w-100" alt="Foto Vino">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+    <footer style="text-align: center">Todos los derechos reservados <b>&#174 </b></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

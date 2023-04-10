@@ -1,0 +1,81 @@
+nav {
+    background-image: url(./Imagenes/fondo.jpg) ;
+    overflow: hidden;
+}
+
+nav ul { 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li a {
+    align-items: center;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: grey;
+}
+
+nav li {
+    float: left;
+}
+nav li img {
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 10px;
+
+}
+
+#logoN {
+    display: none;
+    justify-content: end;
+}
+
+#barra {
+    display: none;
+}
+
+footer { 
+    color: white;
+    padding: 10%;
+    width: auto;
+
+    background-image: url(./Imagenes/fondo.jpg);
+    background-size: cover;
+}
+
+html, body {
+    height: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+ 
+  @media (max-width: 767px) {
+    #formularioComunicar {
+        display: none;
+    }
+    #formularioReserva {
+        display: none;
+    }
+
+    #listaNav {
+        display: none;
+    }
+    
+    #barra {
+        display: flex;
+        justify-content: end;
+        padding: 10px;
+    }
+  }
+ 
