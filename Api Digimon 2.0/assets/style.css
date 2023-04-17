@@ -1,0 +1,34 @@
+body {
+  background-image: url("https://images2.alphacoders.com/962/962752.png");
+  background-attachment:fixed;
+}
+
+main {
+
+   padding: 9rem;
+   width: auto;
+   
+}
+table {
+   text-decoration-color: black;
+    height: 20px;
+    padding: auto;
+    width: auto;
+}
+
+.card-container {
+padding: 50px;
+display: inline-block;
+grid-template-columns: 3;
+
+}
+.img-card {
+   width: 100px;
+   height: 100px;
+
+}
+
+.card {
+   margin-top: 130px;
+}
+
